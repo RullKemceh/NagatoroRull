@@ -21,7 +21,6 @@ handler.tags = ['group']
 handler.command = /^promote|demote|kick$/i
 handler.group = true
 
-handler.owner = true
-handler.botAdmin = true
+handler.admin = true
 
 export default handler
