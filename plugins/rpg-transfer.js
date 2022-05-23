@@ -12,7 +12,7 @@ async function handler(m, { conn, args, usedPrefix, command }) {
     let lol = `Use format ${usedPrefix}${command} [type] [value] [number]
 example ${usedPrefix}${command} money 9999 @628123456789
 
-📍 Transferable items
+🧾 Transferable items
 ${item.map(v => `${rpg.emoticon(v)}${v}`.trim()).join('\n')}
 `.trim()
     const type = (args[0] || '').toLowerCase()
