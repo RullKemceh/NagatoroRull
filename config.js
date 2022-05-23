@@ -8,11 +8,11 @@ global.donasi = process.env.DONASI
 global.thumbmenu = process.env.THUMB_MENU
 global.sig = process.env.LINK_IG
 global.sgh = process.env.LINK_GITHUB
-global.sgc = process.env.LINK_GROUP
-global.ownernumber = process.env.NOWNER
+global.sgc = https://chat.whatsapp.com/E8teQ7sHHVVIBbGhQod2ul
+global.ownernumber = 6285859047172
 global.owner = [
-  ['0'],
-  ['0'],
+  ['6285859047172'],
+  ['6285859047172'],
   [`6285859047172`, `Rull`, true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
