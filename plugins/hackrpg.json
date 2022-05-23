@@ -1,28 +1,24 @@
 const rewards = {
-  exp: 9999,
-  money: 4999,
-  potion: 5,
+  exp: 15000,
+  money: 35999,
+  potion: 9,
 }
-const cooldown = 86400000
-let handler = async (m,{ conn} ) => {
+const cooldown = 604800000
+let handler = async (m) => {
   let user = global.db.data.users[m.sender]
-  if (new Date - user.lastclaim < cooldown) throw `You have already claimed this daily claim!, wait for *${((user.lastclaim + cooldown) - new Date()).toTimeString()}*`
+  if (new Date - user.lastweekly < cooldown) throw `You have already claimed this daily claim!, wait for *${((user.lastweekly + cooldown) - new Date()).toTimeString()}*`
   let text = ''
   for (let reward of Object.keys(rewards)) {
     if (!(reward in user)) continue
     user[reward] += rewards[reward]
     text += `*+${rewards[reward]}* ${global.rpg.emoticon(reward)}${reward}\n`
   }
-  conn.sendButton(m.chat,'*––––––『 DAILY 』––––––*', text.trim(), null, [['Inventory', '.inv'], ['Weekly', '.weekly']],m)
-  user.lastclaim = new Date * 1
+  conn.sendButton(m.chat,'*––––––『 WEEKLY 』––––––*', text.trim(), null, [['Inventory', '.inv'], ['Monthly', '.monthly']],m)
+  user.lastweekly = new Date * 1
 }
-handler.help = ['daily', 'claim']
-handler.tags = ['owner']
-handler.command = /^(hackmoney|hackrpg)$/i
-
-
-handler.rowner = true
-
+handler.help = ['weekly']
+handler.tags = ['rpg']
+handler.command = /^(weekly)$/i
 
 handler.cooldown = cooldown
 
