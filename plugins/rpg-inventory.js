@@ -119,23 +119,23 @@ Inventory *${conn.getName(m.sender)}*
 ${Object.keys(inventory.others).map(v => user[v] && `*${global.rpg.emoticon(v)}${v}:* ${user[v]}`).filter(v => v).join('\n')}${tools ? `
 
 
-*─────📍 Tools ─────*
+*─────⚔️ Tools ─────*
 ${tools}` : ''}${items ? `
 
 ${dura}` : ''}${items ? `
 
 
-*─────📍 Items ─────*
+*─────🔮 Items ─────*
 ${items}
 *📮 Total Items:* ${Object.keys(inventory.items).map(v => user[v]).reduce((a, b) => a + b, 0)} Items` : ''}${crates ? `
 
 
-*─────📍 Crates ─────*
+*─────📦 Crates ─────*
 ${crates}
 *📮 Total Crates:* ${Object.keys(inventory.crates).map(v => user[v]).reduce((a, b) => a + b, 0)} Crates` : ''}${pets || user.petFood ? `
 
 
-*─────📍 Pets ─────*
+*─────🐱 Pets ─────*
 ${pets}${user.petFood ? '\n*🍖petFood:* ' + user.petFood : ''}` : ''}${cooldowns ? `
 
 *───── ⏰ Cooldowns ─────*
