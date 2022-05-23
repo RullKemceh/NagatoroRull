@@ -9,7 +9,7 @@ global.thumbmenu = process.env.THUMB_MENU
 global.sig = process.env.LINK_IG
 global.sgh = process.env.LINK_GITHUB
 global.sgc = process.env.LINK_GROUP
-global.ownernumber = process.env.NOMOR.OWNER
+global.ownernumber = process.env.OWNER_NUMBER
 global.owner = [
   ['6285859047172'],
   ['6285859047172'],
