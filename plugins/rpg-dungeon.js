@@ -717,7 +717,7 @@ function item(sword, armor, health, usedPrefix) {
   let a = (armor * 1) < 1
   let h = (health * 1) < 90
   let str = `
-${sw ? 'Kamu belum memiliki ⚔️Sword' : ''}${sw && a && h ? ',' : sw && a ? ' dan ' : ''} ${a ? '🥼Armor' : ''}${sw && a && h ? ' dan Minimal 90 ❤Health' : h ? 'Minimal 90 ❤Health' : ''}${sw ? `\nuntuk mendapatkan ⚔Sword ketik *${usedPrefix}craft sword*` : ''}${a ? `\nuntuk mendapatkan 🥼Armor ketik *${usedPrefix}shop buy armor*` : ''}${h ? `\nuntuk menambah ❤Health ketik *${usedPrefix}heal*` : ''}
+${sw ? 'Kamu belum memiliki ⚔️Sword' : ''}${sw && a && h ? ',' : sw && a ? ' dan ' : ''} ${a ? '🥼Armor' : ''}${sw && a && h ? ' dan Minimal 90 ❤Health' : h ? 'Minimal 90 ❤Health' : ''}${sw ? `\nuntuk mendapatkan ⚔Sword ketik *${usedPrefix}craft sword*` : ''}${a ? `\nuntuk mendapatkan 🥼Armor ketik *${usedPrefix}craft armor*` : ''}${h ? `\nuntuk menambah ❤Health ketik *${usedPrefix}heal*` : ''}
   `.trim()
   return str
 }
