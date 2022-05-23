@@ -10,10 +10,10 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
   
   //----------HARGA
   let hdog = 2
-  let hcat = 2
-  let hhorse = 4
-  let hfox = 6
-  let hrobo = 10
+  let hcat = 3
+  let hhorse = 5
+  let hfox = 10
+  let hrobo = 20
 
 let logo = `— *P E T   S T O R E* —
 ▮▧▧▧▧▧▧▧▧▧▧▧▧▮`
