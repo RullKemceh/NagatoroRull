@@ -14,7 +14,7 @@ export function before(m) {
 | Sebelum:*${before}*
 | Sesudah: *${user.level}*
 | gunakan *.profile* untuk mengecek
-```R U L L  B O T```
+          R U L L  B O T
 ───────── ∙ ~εïз~ ∙ ─────────
 	`.trim())
     }
