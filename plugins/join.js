@@ -11,7 +11,7 @@ let handler = async (m, { conn, text, isOwner }) => {
     if (expired) chats.expired = +new Date() + expired * 1000 * 60 * 60 * 24
 }
 handler.help = ['join <chat.whatsapp.com>']
-handler.tags = ['premium']
+handler.tags = ['owner']
 handler.owner = true
 handler.command = /^join$/i
 handler.owner = true
