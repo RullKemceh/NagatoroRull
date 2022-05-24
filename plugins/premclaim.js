@@ -9,7 +9,7 @@ const rewards = {
 const cooldown = 86400000
 let handler = async (m) => {
     let user = global.db.data.users[m.sender]
-    if (new Date - user.lastmonthly < cooldown) throw `You have already claimed this monthly claim, wait for *${((user.lastmonthly + cooldown) - new Date()).toTimeString()}*`
+    if (new Date - user.lastmonthly < cooldown) throw `You have already claimed this Premium claim, wait for *${((user.lastmonthly + cooldown) - new Date()).toTimeString()}*`
     let text = ''
     for (let reward of Object.keys(rewards)) if (reward in user) {
         user[reward] += rewards[reward]
