@@ -1,7 +1,7 @@
 
 let handler = async(m, { conn, usedPrefix: _p, text, participants }) => {
     let user = global.db.data.users[m.sender]
-    let teks = `${text ? text : '*––––––『 Tag All 』––––––*'}\n${readMore}`
+    let teks = `${text ? text : '```-ˏˋ⋆ Tag All ⋆ˊˎ-```'}\n${readMore}`
 		      	for (let mem of participants) {
 		            teks += `\n@${mem.id.split('@')[0]}`
 				}
