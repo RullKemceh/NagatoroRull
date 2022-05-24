@@ -47,9 +47,9 @@ const defaultMenu = {
 ╰━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙
 
 `.trimStart(),
-  header: '```╭━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙\n│ 「 %category 」\n╰┬────────────┈ ⳹```\n```┌┤ Jangan Spam```',
-  body: '```││✿ %cmd %islimit %isPremium```',
-  footer: '```│╰────────────┈ ⳹\n│ 𝐓𝐚𝐧𝐠𝐠𝐚𝐥: %week, %date \n╰━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙```',
+  header: '```| 「 %category 」 |```',
+  body: '```│ %cmd %islimit %isPremium```',
+  footer: '```│𝐓𝐚𝐧𝐠𝐠𝐚𝐥: %week, %date |```',
   after: ``,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
