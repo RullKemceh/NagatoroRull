@@ -10,7 +10,7 @@ let handler = async (m, { conn, text, isOwner }) => {
     if (!chats) chats = global.db.data.chats[res] = {}
     if (expired) chats.expired = +new Date() + expired * 1000 * 60 * 60 * 24
 }
-handler.help = ['join <chat.whatsapp.com>']
+handler.help = ['premjoin <chat.whatsapp.com>']
 handler.tags = ['premium']
 handler.owner = true
 handler.command = /^premjoin$/i
