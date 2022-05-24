@@ -76,6 +76,8 @@ const listMessage = {
 │✧ *Name:* ${name}
 │✧ *Age:* ${age} Years
 │✧ *Sn:* ${sn}
+│✧ Terimakasih
+│✧ Telah Registrasi
 ▣──────···
 `.trim())
 }
