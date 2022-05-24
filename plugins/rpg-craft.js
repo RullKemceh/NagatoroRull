@@ -10,32 +10,29 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
   let botol = global.botwm
 
 let lgocraft = `
-┏━━━━°⌜ CRAFTING TABLE ⌟°━━━━┓
+█▀▀▀▀█▀▀▀▀█▀▀▀▀█
+█────█────█────█
+█▄▄▄▄█▄▄▄▄█▄▄▄▄█
+█▀▀▀▀█▀▀▀▀█▀▀▀▀█
+█────█────█────█
+█▄▄▄▄█▄▄▄▄█▄▄▄▄█
+█▀▀▀▀█▀▀▀▀█▀▀▀▀█
+█────█────█────█
+█▄▄▄▄█▄▄▄▄█▄▄▄▄█`
 
- █▀▀▀▀█▀▀▀▀█▀▀▀▀█
- █────█────█────█
- █▄▄▄▄█▄▄▄▄█▄▄▄▄█
- █▀▀▀▀█▀▀▀▀█▀▀▀▀█
- █────█────█────█
- █▄▄▄▄█▄▄▄▄█▄▄▄▄█
- █▀▀▀▀█▀▀▀▀█▀▀▀▀█
- █────█────█────█
- █▄▄▄▄█▄▄▄▄█▄▄▄▄█`
-
-┗━━━━°⌜ BY RULL BOTZ ⌟°━━━━┛
   let caption = `
 ▧ Pickaxe ⛏️
 ▧ Sword ⚔️
 ▧ Fishingrod 🎣
 
 *❏ RECIPE*
-✿ Pickaxe ⛏️
+▧ Pickaxe ⛏️
 〉 10 Kayu
 〉 5 Batu
 〉 5 Iron
 〉 20 String
 
-✿ Sword ⚔️
+▧ Sword ⚔️
 〉 10 Kayu
 〉 15 Iron
 
@@ -44,12 +41,12 @@ let lgocraft = `
 〉 2 Iron
 〉 20 String
 
-✿ Armor 🥼
+▧ Armor 🥼
 〉 30 Iron
 〉 1 Emerald
 〉 5 Diamond
 
-✿ Atm 💳
+▧ Atm 💳
 〉3 Emerald
 〉6 Diamond
 〉10k Money
