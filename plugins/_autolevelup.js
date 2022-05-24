@@ -9,9 +9,13 @@ export function before(m) {
 
     if (before !== user.level) {
         m.reply(`
-Selamat, anda telah naik level!
-*${before}* -> *${user.level}*
-gunakan *.profile* untuk mengecek
+───────── ∙ ~εïз~ ∙ ─────────
+|Selamat, anda telah naik level!
+| Sebelum:*${before}*
+| Sesudah: *${user.level}*
+| gunakan *.profile* untuk mengecek
+```R U L L  B O T```
+───────── ∙ ~εïз~ ∙ ─────────
 	`.trim())
     }
 }
