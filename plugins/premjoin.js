@@ -13,7 +13,7 @@ let handler = async (m, { conn, text, isOwner }) => {
 handler.help = ['join <chat.whatsapp.com>']
 handler.tags = ['premium']
 handler.owner = true
-handler.command = /^join$/i
+handler.command = /^premjoin$/i
 handler.premium = true
 export default handler
 
