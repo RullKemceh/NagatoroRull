@@ -47,9 +47,8 @@ const defaultMenu = {
 ╰━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙
 
 `.trimStart(),
-  header: '```°.✩┈┈∘*┈ %category ┈*∘┈┈✩.°```',
+  header: '```✦ ╮ %category```',
   body: '```»»--► %cmd %islimit %isPremium```',
-  footer: '```©RullBotz```',
   after: ``,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
