@@ -16,8 +16,8 @@ Kurang *${max - user.exp}* lagi!
         let teks = `Selamat ${conn.getName(m.sender)} naik 🧬level`
         let str = `
 ${teks} 
-• 🧬Level Sebelumnya : ${before}
-• 🧬Level Baru : ${user.level}
+• 🧬𝑳𝒆𝒗𝒆𝒍 𝑺𝒆𝒃𝒆𝒍𝒖𝒎𝒏𝒚𝒂 : ${before}
+• 🧬𝑳𝒆𝒗𝒆𝒍 𝑩𝒂𝒆𝒖 : ${user.level}
 • Pada Jam : ${new Date().toLocaleString('id-ID')}
 *_Semakin sering berinteraksi dengan bot Semakin Tinggi level kamu_*
 `.trim()
