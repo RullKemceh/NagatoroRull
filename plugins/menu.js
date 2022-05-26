@@ -31,13 +31,20 @@ const defaultMenu = {
   before: `╭───── 「 %me 」
 |
 | Nama:%name!
+|
 | Waktu: %time
+|
 | Exp: %totalexp
+|
 | Role: %role
+|
 | Database: %rtotalreg of %totalreg
+|
 | Uptime:
+|
 | %uptime
 | (%muptime)
+|
 | Bot By: Rull
 ╰
 
