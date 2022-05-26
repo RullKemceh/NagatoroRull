@@ -50,8 +50,8 @@ global.rpg = {
       level: '📊',
       limit: '🎫',
       health: '❤️',
-      exp: '✨',
-      money: '💹',
+      exp: '🌟',
+      money: '💵',
       bank: '🏦',
       potion: '🥤',
       diamond: '💎',
@@ -76,7 +76,7 @@ global.rpg = {
       petFood: '🍖',
       iron: '⛓️',
       gold: '🪙',
-      emerald: '❇️',
+      emerald: '💚',
       upgrader: '🧰'
       
     }
