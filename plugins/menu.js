@@ -30,7 +30,7 @@ let tags = {
 const defaultMenu = {
   before: `╭───── 「 %me 」
 |
-| Nama:%name!
+| Nama:%name
 |
 | Waktu: %time
 |
@@ -46,6 +46,15 @@ const defaultMenu = {
 | (%muptime)
 |
 | Bot By: Rull
+|
+| Note: Jika Hint Game Gak Muncul Mohon
+| Tulis Lagi :D
+|
+| 
+| ┏━┓
+| ┃╋┣┳┳┓┏┓
+| ┃┓┫┃┃┗┫┗┓
+| ┗┻┻━┻━┻━┛
 ╰
 
 `.trimStart(),
