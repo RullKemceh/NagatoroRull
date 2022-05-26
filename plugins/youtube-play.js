@@ -13,9 +13,9 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 ⌚ *Durasi:* ${durationH}
 👁️ *Penonton:* ${viewH}
 *Jangan Spam Yaa*
-  `.trim(), author, thumbnail, url, '📺Go To Youtube!', null, null, [
-    ['Audio 🎧', `${usedPrefix}yta ${url} yes`], 
-    ['Video 🎥', `${usedPrefix}ytv ${url} yes`],
+  `.trim(), author, thumbnail, url, '𝙆𝙚 𝙔𝙤𝙪𝙩𝙪𝙗𝙚!', null, null, [
+    ['𝘼𝙪𝙙𝙞𝙤/𝙈𝙪𝙨𝙞𝙠', `${usedPrefix}yta ${url} yes`], 
+    ['𝙑𝙞𝙙𝙚𝙤', `${usedPrefix}ytv ${url} yes`],
     ['Gajadi', `${usedPrefix}del`]
   ], m)
 }
