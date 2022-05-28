@@ -41,22 +41,15 @@ const defaultMenu = {
 | Database: %rtotalreg of %totalreg
 |
 | Uptime:
-|
 | %uptime
 | (%muptime)
 |
-| Bot By: Rull
+| Nagatoro✨
 |
 | Note: Jika Hint Game Gak Muncul Mohon
 | Tulis Lagi :D
 |
-| 𝘽𝙤𝙩 𝙏𝙞𝙙𝙖𝙠 𝙈𝙚𝙣𝙮𝙞𝙢𝙥𝙖𝙣 𝘿𝙖𝙩𝙖𝙗𝙖𝙨𝙚
-| 
-| ┏━┓
-| ┃╋┣┳┳┓┏┓
-| ┃┓┫┃┃┗┫┗┓
-| ┗┻┻━┻━┻━┛
-╰
+╰ 🌸
 
 `.trimStart(),
   header: '```✦ ╮ %category```',
