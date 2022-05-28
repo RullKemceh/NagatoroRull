@@ -9,8 +9,8 @@ try {
     if (/image|video/.test(mime)) {
       let img = await q.download()
       if (!img) throw 'Reply stiker nya!'
-      stiker = await sticker(img, false, '🍀', '🎮 • RullBotz :\n⤷ https://bit.ly/RullBotz')
-    } else if (args[0]) stiker = await sticker(false, args[0], '🍀', '🎮 • RullBotz :\n⤷ https://bit.ly/RullBotz')
+      stiker = await sticker(img, false, '✨', '🐈‍⬛ • Nagatoro Botz :\n⤷ By RullSenpai')
+    } else if (args[0]) stiker = await sticker(false, args[0], '✨', '🐈‍⬛ • Nagatoro Botz :\n⤷ By RullSenpai')
   } finally {
     if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '', m)
     else throw 'Conversion failed'
