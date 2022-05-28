@@ -77,6 +77,6 @@ Pasangan: ${jodoh}
 	}
 }
 handler.help = ['profile [@user]']
-handler.tags = ['user']
+handler.tags = ['exp']
 handler.command = /^profile$/i
 }
