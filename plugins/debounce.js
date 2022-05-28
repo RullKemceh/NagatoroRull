@@ -11,10 +11,10 @@ let handler = async (m, {
 	} else conn.reply(m.chat, '_eeeeeiiittsssss..._', m)
 }
 handler.help = ['debounce']
-handler.tags = ['owner']
+handler.tags = ['host']
 handler.command = /^(debounce|refresh)$/i
 handler.owner = true
 
 handler.fail = null
 
-module.exports = handler
+export default handler
