@@ -22,6 +22,7 @@ ${readMore}
 ⏰ • *PremiumTime:* 
 ${clockString(user.premiumTime)}
 📑 • *Registered:* ${registered ? '✅': '❌'}
+🌸 • *Pasangan: ${jodoh}*
 `.trim()
     conn.sendButton(m.chat, str, author, pp, [[`${registered ? 'Menu':'Verify'}`, `${user.registered ? '.menu':'.verify'}`]], fkon, { contextInfo: { mentionedJid: [who], forwardingScore: 999, isForwarded: true}})
 }
