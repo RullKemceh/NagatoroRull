@@ -35,9 +35,9 @@ try {
        m.reply('1 Limit Terpakai')
             conn.reply(m.chat, '「📨」ᴅ ᴏ ᴡ ɴ ʟ ᴏ ᴀ ᴅ ɪ ɴ ɢ . . .', m, { contextInfo: {
         externalAdReply: {
-            title: '     「🎶」 𝑇𝑖𝑘𝑡𝑜𝑘', 
-            body: '𝑆𝑒𝑑𝑎𝑛𝑔 𝐼𝑚𝑝𝑜𝑟𝑡 𝑀𝑒𝑑𝑖𝑎....',
-            description: '𝑆𝑒𝑑𝑎𝑛𝑔 𝐼𝑚𝑝𝑜𝑟𝑡 𝑀𝑒𝑑𝑖𝑎....',
+            title: '     「🎶」 ᴛ ɪ ᴋ ᴛ ᴏ ᴋ', 
+            body: 'ɪᴍᴘᴏʀᴛɪɴɢ ᴍᴇᴅɪᴀ....',
+            description: 'ɪᴍᴘᴏʀᴛɪɴɢ ᴍᴇᴅɪᴀ....',
             mediaType: 2,
           thumbnail: await (await fetch('https://telegra.ph/file/9d312cfaf746c169c4682.jpg')).buffer(),
          mediaUrl: args[0]
@@ -45,15 +45,15 @@ try {
      }})
      
     conn.sendHydrated(m.chat, `Tiktok WM`,`➔ ɴɪᴄᴋɴᴀᴍᴇ ${nickname}${description ? `\n➔ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ:\n${description}` : ''}`, await(await fetch(url)).buffer(), 
-url, '𝑺𝒐𝒖𝒓𝒄𝒆', null,null, [
-['𝑁𝑂 𝑊𝑀', `.tt ${args[0]} nowm`],
-['𝐴𝑈𝐷𝐼𝑂', `.tt ${args[0]} audio`],
+url, '🌎 s ᴏ ᴜ ʀ ᴄ ᴇ', null,null, [
+['ɴᴏ ᴡᴍ', `.tt ${args[0]} nowm`],
+['ᴀᴜᴅɪᴏ', `.tt ${args[0]} audio`],
 [null,null]], m)
             break
           case 'nowm':
-       conn.reply(m.chat, '「📨」𝐷𝑜𝑤𝑛𝑙𝑜𝑎𝑑𝑖𝑛𝑔 . . .', m, { contextInfo: {
+       conn.reply(m.chat, '「📨」ᴅ ᴏ ᴡ ɴ ʟ ᴏ ᴀ ᴅ ɪ ɴ ɢ . . .', m, { contextInfo: {
         externalAdReply: {
-            title: '     「🎶」 𝑇𝑖𝑘𝑇𝑜𝑘', 
+            title: '     「🎶」 ᴛ ɪ ᴋ ᴛ ᴏ ᴋ', 
             body: 'ɪᴍᴘᴏʀᴛɪɴɢ ᴍᴇᴅɪᴀ....',
             description: 'ɪᴍᴘᴏʀᴛɪɴɢ ᴍᴇᴅɪᴀ....',
             mediaType: 2,
@@ -62,18 +62,18 @@ url, '𝑺𝒐𝒖𝒓𝒄𝒆', null,null, [
         }
      }})
     conn.sendHydrated(m.chat, `Tiktok NOWM`,`➔ ɴɪᴄᴋɴᴀᴍᴇ ${nickname}${description ? `\n➔ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ:\n${description}` : ''}`, await(await fetch(url)).buffer(), 
-url, '𝑺𝒐𝒖𝒓𝒄𝒆', null,null, [
+url, '🌎 s ᴏ ᴜ ʀ ᴄ ᴇ', null,null, [
 ['ᴀᴜᴅɪᴏ', `.tt ${args[0]} audio`],
 [null,null],
 [null,null]], m)
             break
             case 'audio':
             m.reply('1 Limit Terpakai')
-            conn.reply(m.chat, '「📨」𝐷𝑜𝑤𝑛𝑙𝑜𝑎𝑑𝑖𝑛𝑔 . . .', m, { contextInfo: {
+            conn.reply(m.chat, '「📨」ᴅ ᴏ ᴡ ɴ ʟ ᴏ ᴀ ᴅ ɪ ɴ ɢ . . .', m, { contextInfo: {
         externalAdReply: {
             title: '     「🎶」 ᴛ ɪ ᴋ ᴛ ᴏ ᴋ', 
-            body: '𝑆𝑒𝑑𝑎𝑛𝑔 𝐼𝑚𝑝𝑜𝑟𝑡 𝑀𝑒𝑑𝑖𝑎....',
-            description: '𝑆𝑒𝑑𝑎𝑛𝑔 𝐼𝑚𝑝𝑜𝑟𝑡 𝑀𝑒𝑑𝑖𝑎....',
+            body: 'ɪᴍᴘᴏʀᴛɪɴɢ ᴍᴇᴅɪᴀ....',
+            description: 'ɪᴍᴘᴏʀᴛɪɴɢ ᴍᴇᴅɪᴀ....',
             mediaType: 2,
           thumbnail: await (await fetch('https://telegra.ph/file/9d312cfaf746c169c4682.jpg')).buffer(),
          mediaUrl: args[0]
@@ -83,7 +83,7 @@ url, '𝑺𝒐𝒖𝒓𝒄𝒆', null,null, [
     conn.sendFile(m.chat, await fetch(url), 'tiktok.mp3', '', m, null, {
     asDocument: false, ptt: false, contextInfo: {
         externalAdReply: {
-            title: '                「🎶」 𝑇𝑖𝑘𝑇𝑜𝑘', 
+            title: '                「🎶」 ᴛ ɪ ᴋ ᴛ ᴏ ᴋ', 
             body: '⇆ㅤ◁ㅤ ❚❚ㅤ ▷ㅤ↻',
             description: '⇆ㅤ◁ㅤ ❚❚ㅤ ▷ㅤ↻',
             mediaType: 2,
