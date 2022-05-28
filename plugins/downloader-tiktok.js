@@ -5,7 +5,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 	let type = (args[1] || '').toLowerCase()
     let _type = (args[1] || '').toLowerCase()
   
-    if (!args[0]) throw `Use example ${usedPrefix}${command} https://www.tiktok.com/@omagadsus/video/7025456384175017243`
+    if (!args[0]) throw `Use example ${usedPrefix}${command} https://vt.tiktok.com/ZSdqrC6by/?k=1`
     const { author: { nickname }, video, description } = await tiktokdl(args[0]).catch(async _ => await tiktokdlv2(args[0]))
     
     let res = await fetch(`https://recoders-area.caliph.repl.co/api/tiktod/?url=${args[0]}`)
@@ -24,7 +24,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
   if (args[1] == 'audio') {
     url = audio
   }
-    if (!args[1]) return conn.sendHydrated(m.chat, `TIKTOK Downloader`, 'select the type of download', 'https://telegra.ph/file/9d312cfaf746c169c4682.jpg', null,null,null,null, [['ᴡɪᴛʜ ᴡᴍ', `.tt ${args[0]} wm`],['ɴᴏ ᴡᴍ', `.tt ${args[0]} nowm`],['ᴀᴜᴅɪᴏ', `.tt ${args[0]} audio`]], m)
+    if (!args[1]) return conn.sendHydrated(m.chat, `TIKTOK Downloader`, 'select the type of download', 'https://telegra.ph/file/ed2fae29f7d19b25e4996.jpg', null,null,null,null, [['ᴡɪᴛʜ ᴡᴍ', `.tt ${args[0]} wm`],['ɴᴏ ᴡᴍ', `.tt ${args[0]} nowm`],['ᴀᴜᴅɪᴏ', `.tt ${args[0]} audio`]], m)
      
 try {
     if (/tiktok|tt/i.test(command)) {
