@@ -19,4 +19,4 @@ handler.all = async function(m, {conn} ) {
 	}
 }
 
-module.exports = handler
+export default handler
