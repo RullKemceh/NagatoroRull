@@ -9,6 +9,13 @@ let handler = async (m, { conn }) => {
     let username = conn.getName(who)
     let name = conn.getName(who)
     let fkon = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
+	if (pasangan == "") {
+			jodoh = `Gak punya`
+		} else if (global.db.data.users[global.db.data.users[who].pasangan].pasangan != who) {
+			jodoh = `sedang menunggu jawaban dari @${pasangan.split('@')[0]}`
+		} else {
+			jodoh = `@${pasangan.split('@')[0]}`
+		}
     let str = `
 ]──────────❏ *PROFILE* ❏──────────[
 💌 • *Name:* ${username} 
