@@ -26,8 +26,6 @@ let tags = {
   'audio': '𝘈𝘶𝘥𝘪𝘰', 
   'premium': '𝘗𝘳𝘦𝘮𝘪𝘶𝘮', 
   'info': '𝘐𝘯𝘧𝘰'
-  'jadian': 'jadian'
-
 }
 const defaultMenu = {
   before: `╭───── 「 %me 」
