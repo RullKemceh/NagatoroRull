@@ -79,4 +79,4 @@ Pasangan: ${jodoh}
 handler.help = ['profile [@user]']
 handler.tags = ['user']
 handler.command = /^profile$/i
-module.exports = handler
+export default handler
