@@ -14,7 +14,7 @@ try {
   m.reply (`apikey invalid atau server down`)} 
 }
 handler.help = ['affect']
-handler.tags = ['canvascord']
+handler.tags = ['tools']
 handler.command = /^affect$/i
 
 handler.admin = false
