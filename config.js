@@ -11,9 +11,9 @@ global.sgh = process.env.LINK_GITHUB
 global.sgc = process.env.LINK_GROUP
 global.ownernumber = process.env.OWNER_NUMBER
 global.owner = [
-  ['6285746030186'],
-  ['6285746030186'],
-  [`6285746030186`, `Naoto`, true]
+  ['6285859047172'],
+  ['6285859047172'],
+  [`6285859047172`, `Naoto`, true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [`6285746030186`] // Want some help?
